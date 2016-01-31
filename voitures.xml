@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<modele>
+	<id_modele>
+178524ER4</id_modele>
+	<modele>Citroen Picasso</modele>
+	<carburant>essence</carburant>
+</modele>
+<modele>
+	<id_modele>
+7499RF567</id_modele>
+	<modele>Renault Megane Scenic</modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele></id_modele>
+	<modele></modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele>17C92853AZ</id_modele>
+	<modele>Citroen C5</modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele>LOL</id_modele>
+	<modele>lol</modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele>aef</id_modele>
+	<modele>qef</modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele>aezaef</id_modele>
+	<modele>ezfzef</modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele>dzefef</id_modele>
+	<modele>adaz</modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele>zef</id_modele>
+	<modele>zef</modele>
+	<carburant>diesel</carburant>
+</modele>
+<modele>
+	<id_modele>zefdzaf</id_modele>
+	<modele>zefqazfdeaf</modele>
+	<carburant>diesel</carburant>
+</modele>
+<proprietaire>
+	<id_pers>1</id_pers>
+	<nom>qdf</nom>
+	<prenom>sdf</prenom>
+	<adresse>sdf</adresse>
+	<ville>Nantes</ville>
+	<codepostal>44000</codepostal>
+</proprietaire>
+<voitures>
+	<immat>23-AC-</immat>
+	<id_modele>178524ER4</id_modele>
+	<couleur>claire</couleur>
+	<datevoiture>2016-01-13</datevoiture>
+</voitures>
+<voitures>
+	<immat>23-AD-</immat>
+	<id_modele>178524ER4</id_modele>
+	<couleur>claire</couleur>
+	<datevoiture>2016-01-13</datevoiture>
+</voitures>
+<voitures>
+	<immat>23-DC-</immat>
+	<id_modele>178524ER4</id_modele>
+	<couleur>claire</couleur>
+	<datevoiture>2016-01-06</datevoiture>
+</voitures>

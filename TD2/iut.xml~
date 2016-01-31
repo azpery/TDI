@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone="yes"?>
+<iut>
+	<etudiant id="23" nom="dupond">
+		<UV>
+			<nom>INFO</nom>
+			<duree>2</duree>
+			<note>20</note>
+		</UV>
+	</etudiant>
+</iut>
