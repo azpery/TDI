@@ -1,4 +1,4 @@
-   
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+c
     <title>TP1 - IHM</title>
 
     <!-- Bootstrap Core CSS -->
@@ -56,7 +56,7 @@
             </div>
             <!-- /.navbar-header -->
 
-            
+
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default sidebar" role="navigation">
@@ -78,7 +78,7 @@
                         </li>
                         <li>
                             <a href="ajoutmodele.php"><i class="fa fa-bar-chart-o fa-fw"></i> Ajouter modele</a>
-                            
+
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
@@ -89,17 +89,17 @@
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
-                            
+
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
-                            
+
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                            
+
                             <!-- /.nav-second-level -->
                         </li>
                     </ul>
@@ -115,17 +115,17 @@
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
-	<table class="table"> 
-		<thead> 
-			<tr> 
-				<th>ID modele</th> <th>Nom</th> <th>Carburant</th> 
-			</tr> 
-		</thead> 
-		<tbody> 
+	<table class="table">
+		<thead>
+			<tr>
+				<th>ID modele</th> <th>Nom</th> <th>Carburant</th>
+			</tr>
+		</thead>
+		<tbody>
 <?php
     try{
 
-    	$con = new PDO('mysql:host=mysql.ensinfo.sciences.univ-nantes.prive;dbname=E158592H' , 'E158592H', 'I37XE08Q'); 
+    	$con = new PDO('mysql:host=mysql.ensinfo.sciences.univ-nantes.prive;dbname=E158592H' , 'E158592H', 'I37XE08Q');
         $query = "SELECT * FROM modele";
 
 	$requetePrep = $con->prepare($query);
@@ -135,18 +135,18 @@
 	foreach ($result as $value){
 	$table .= "<tr>";
 	$table.= "<td>".$value["id_modele"]."</td><td>".$value["modele"]."</td><td>".$value["carburant"]."</td>";
-	$table.= "</tr>";	
+	$table.= "</tr>";
 	}
-	
+
 	echo $table;
-    	
+
     }catch(PDOException $e){
     	echo '{"results":[{"error":'.$e->getCode().'}]}';
     }
-    ?> 
-		</tbody> 
+    ?>
+		</tbody>
 	</table>
- 
+
 </div>
     <!-- jQuery -->
     <script src="./bower_components/jquery/dist/jquery.min.js"></script>
